@@ -181,6 +181,11 @@ todoRoutes.route('/').get(function(req, res) {
         }
     });
 });
+
+
+<!-- Node.js, which the reader should already have some familiarity with.
+Express.js, which vastly simplifies building out common web server tasks and is standard fare in building a Node.js REST API back end.
+Mongoose, which will connect our back end to a MongoDB database. -->
 todoRoutes.route('/:id').get(function(req, res) {
     let id = req.params.id;
     Todo.findById(id, function(err, todo) {
