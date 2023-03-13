@@ -1,3 +1,4 @@
+// Creating a Secure REST API in Node.js
 const userSchema = new Schema({
    firstName: String,
    lastName: String,
