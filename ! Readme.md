@@ -1,4 +1,4 @@
-Initiating The Back-end Project
+# Initiating The Back-end Project
 To initiate the back-end project let’s create a new empty project folder:
 
 $ mkdir backend
