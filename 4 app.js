@@ -1,3 +1,6 @@
+// import { add } from './math';
+
+// console.log(add(16, 26));
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
