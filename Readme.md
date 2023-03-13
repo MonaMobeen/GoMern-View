@@ -46,7 +46,7 @@ Start the server by using nodemon:
 $ nodemon server
 
 
-Installing MondoDB
+13 Installing MondoDB
 Now that we’ve managed to set up a basic Node.js / Express server we’re ready to continue with the next task: setting up the MongoDB database.
 
 First of all we need to make sure that MongoDB is installed on your system. On MacOS this task can be completed by using the following command:
