@@ -23,3 +23,10 @@ exports.insert = (req, res) => {
            res.status(201).send({id: result._id});
        });
 };
+//    req.body.password = salt + "$" + hash;
+//    req.body.permissionLevel = 1;
+//    UserModel.createUser(req.body)
+//        .then((result) => {
+//            res.status(201).send({id: result._id});
+//        });
+// };
